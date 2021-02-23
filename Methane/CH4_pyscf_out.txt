@@ -1,0 +1,58 @@
+PySCF version 1.7.6a1
+
+[INPUT] num. atoms = 5
+[INPUT] num. electrons = 10
+[INPUT] charge = 0
+[INPUT] spin (= nelec alpha-beta = 2S) = 0
+[INPUT] symmetry True subgroup D2
+[INPUT] Mole.unit = angstrom
+[INPUT]  1 C      0.000000000000   0.000000000000   0.000000000000 AA    0.000000000000   0.000000000000   0.000000000000 Bohr
+[INPUT]  2 H      0.627600000000   0.627600000000   0.627600000000 AA    1.185992115777   1.185992115777   1.185992115777 Bohr
+[INPUT]  3 H      0.627600000000  -0.627600000000  -0.627600000000 AA    1.185992115777  -1.185992115777  -1.185992115777 Bohr
+[INPUT]  4 H     -0.627600000000   0.627600000000  -0.627600000000 AA   -1.185992115777   1.185992115777  -1.185992115777 Bohr
+[INPUT]  5 H     -0.627600000000  -0.627600000000   0.627600000000 AA   -1.185992115777  -1.185992115777   1.185992115777 Bohr
+[INPUT] ---------------- BASIS SET ---------------- 
+[INPUT] l, kappa, [nprim/nctr], expnt,             c_1 c_2 ...
+[INPUT] H
+[INPUT] 0    0    [3    /1   ]  18.731137         0.0334946
+                                2.8253937         0.23472695
+                                0.6401217         0.81375733
+[INPUT] 0    0    [1    /1   ]  0.1612778            1
+[INPUT] 1    0    [1    /1   ]  1.1                  1
+[INPUT] C
+[INPUT] 0    0    [6    /1   ]  3047.5249         0.0018347
+                                457.36951         0.0140373
+                                103.94869         0.0688426
+                                29.210155         0.2321844
+                                9.286663          0.4679413
+                                3.163927          0.362312
+[INPUT] 0    0    [3    /1   ]  7.8682724         -0.1193324
+                                1.8812885         -0.1608542
+                                0.5442493         1.1434564
+[INPUT] 0    0    [1    /1   ]  0.1687144            1
+[INPUT] 1    0    [3    /1   ]  7.8682724         0.0689991
+                                1.8812885         0.316424
+                                0.5442493         0.7443083
+[INPUT] 1    0    [1    /1   ]  0.1687144            1
+[INPUT] 2    0    [1    /1   ]  0.8                  1
+
+nuclear repulsion = 13.4720345873821
+point group symmetry = Td, use subgroup D2
+num. orbitals of irrep A = 10
+num. orbitals of irrep B1 = 8
+num. orbitals of irrep B2 = 8
+num. orbitals of irrep B3 = 8
+number of shells = 18
+number of NR pGTOs = 55
+number of NR cGTOs = 34
+basis = 6-31G(d,p)
+
+**** SCF Summaries ****
+Total Energy = -40.201645510379564
+
+**** MO energy ****
+MO #1 (A #1), energy= -11.2070005492685 occ= 2
+MO #2 (A #2), energy= -0.943153948957894 occ= 2
+MO #3 (B1 #1), energy= -0.543946965925837 occ= 2
+MO #4 (B2 #1), energy= -0.543946965925836 occ= 2
+MO #5 (B3 #1), energy= -0.543946965925835 occ= 2
