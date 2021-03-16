@@ -1,0 +1,73 @@
+PySCF version 1.7.6a1
+
+[INPUT] num. atoms = 1
+[INPUT] num. electrons = 2
+[INPUT] charge = 0
+[INPUT] spin (= nelec alpha-beta = 2S) = 0
+[INPUT] symmetry True subgroup None
+[INPUT] Mole.unit = angstrom
+[INPUT]  1 He     0.000000000000   0.000000000000   0.000000000000 AA    0.000000000000   0.000000000000   0.000000000000 Bohr
+[INPUT] ---------------- BASIS SET ---------------- 
+[INPUT] l, kappa, [nprim/nctr], expnt,             c_1 c_2 ...
+[INPUT] He
+[INPUT] 0    0    [4    /1   ]  1145              0.000359
+                                171.7             0.002771
+                                39.07             0.014251
+                                11.04             0.055566
+[INPUT] 0    0    [1    /1   ]  3.566                1
+[INPUT] 0    0    [1    /1   ]  1.24                 1
+[INPUT] 0    0    [1    /1   ]  0.4473               1
+[INPUT] 0    0    [1    /1   ]  0.164                1
+[INPUT] 0    0    [1    /1   ]  0.04664              1
+[INPUT] 1    0    [1    /1   ]  10.153               1
+[INPUT] 1    0    [1    /1   ]  3.627                1
+[INPUT] 1    0    [1    /1   ]  1.296                1
+[INPUT] 1    0    [1    /1   ]  0.463                1
+[INPUT] 1    0    [1    /1   ]  0.14                 1
+[INPUT] 2    0    [1    /1   ]  7.666                1
+[INPUT] 2    0    [1    /1   ]  2.647                1
+[INPUT] 2    0    [1    /1   ]  0.914                1
+[INPUT] 2    0    [1    /1   ]  0.2892               1
+[INPUT] 3    0    [1    /1   ]  5.411                1
+[INPUT] 3    0    [1    /1   ]  1.707                1
+[INPUT] 3    0    [1    /1   ]  0.5345               1
+[INPUT] 4    0    [1    /1   ]  3.43                 1
+[INPUT] 4    0    [1    /1   ]  0.7899               1      
+
+nuclear repulsion = 0
+point group symmetry = SO3
+num. orbitals of irrep s+0 = 6
+num. orbitals of irrep p-1 = 5
+num. orbitals of irrep p+0 = 5
+num. orbitals of irrep p+1 = 5
+num. orbitals of irrep d-2 = 4
+num. orbitals of irrep d-1 = 4
+num. orbitals of irrep d+0 = 4
+num. orbitals of irrep d+1 = 4
+num. orbitals of irrep d+2 = 4
+num. orbitals of irrep f-3 = 3
+num. orbitals of irrep f-2 = 3
+num. orbitals of irrep f-1 = 3
+num. orbitals of irrep f+0 = 3
+num. orbitals of irrep f+1 = 3
+num. orbitals of irrep f+2 = 3
+num. orbitals of irrep f+3 = 3
+num. orbitals of irrep g-4 = 2
+num. orbitals of irrep g-3 = 2
+num. orbitals of irrep g-2 = 2
+num. orbitals of irrep g-1 = 2
+num. orbitals of irrep g+0 = 2
+num. orbitals of irrep g+1 = 2
+num. orbitals of irrep g+2 = 2
+num. orbitals of irrep g+3 = 2
+num. orbitals of irrep g+4 = 2
+number of shells = 20
+number of NR pGTOs = 83
+number of NR cGTOs = 80
+basis = aug-cc-pV5Z
+
+**** SCF Summaries ****
+Total Energy = -2.86162692924581
+
+**** MO energy ****
+MO #1 (s+0 #1), energy= -0.917946127520515 occ= 2

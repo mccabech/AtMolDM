@@ -1,0 +1,185 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5825,        177]
+NotebookOptionsPosition[      4869,        150]
+NotebookOutlinePosition[      5268,        166]
+CellTagsIndexPosition[      5225,        163]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Orbitals - only the radial part", "Section",
+ CellChangeTimes->{{3.822990828881967*^9, 3.822990833601624*^9}, {
+  3.823330131472289*^9, 
+  3.823330135125668*^9}},ExpressionUUID->"68b5c5a8-d657-4944-9766-\
+ce61286d3eeb"],
+
+Cell[CellGroupData[{
+
+Cell["He 1s", "Subsection",
+ CellChangeTimes->{{3.82300235486607*^9, 3.823002368156747*^9}, {
+  3.823330119707553*^9, 3.823330122136895*^9}, {3.824730449557537*^9, 
+  3.82473044974625*^9}, {3.824894266476066*^9, 
+  3.824894266620324*^9}},ExpressionUUID->"8a7e9331-c7ab-4869-bd04-\
+eed86d32e0d4"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"RHe1s", "[", "r_", "]"}], ":=", 
+  RowBox[{
+   RowBox[{"0.178486", " ", 
+    RowBox[{"E", "^", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "1145."}], " ", 
+       RowBox[{"r", "^", "2"}]}], ")"}]}]}], "+", 
+   RowBox[{"0.331987", " ", 
+    RowBox[{"E", "^", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "171.7"}], " ", 
+       RowBox[{"r", "^", "2"}]}], ")"}]}]}], "+", 
+   RowBox[{"0.562515", " ", 
+    RowBox[{"E", "^", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "39.07"}], " ", 
+       RowBox[{"r", "^", "2"}]}], ")"}]}]}], "+", 
+   RowBox[{"0.850046", " ", 
+    RowBox[{"E", "^", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "11.04"}], " ", 
+       RowBox[{"r", "^", "2"}]}], ")"}]}]}], "+", 
+   RowBox[{"1.06351", " ", 
+    RowBox[{"E", "^", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "3.566"}], " ", 
+       RowBox[{"r", "^", "2"}]}], ")"}]}]}], "+", 
+   RowBox[{"0.984721", " ", 
+    RowBox[{"E", "^", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "1.24"}], " ", 
+       RowBox[{"r", "^", "2"}]}], ")"}]}]}], "+", 
+   RowBox[{"0.58174", " ", 
+    RowBox[{"E", "^", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "0.4473"}], " ", 
+       RowBox[{"r", "^", "2"}]}], ")"}]}]}], "+", 
+   RowBox[{"0.119704", " ", 
+    RowBox[{"E", "^", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "0.164"}], " ", 
+       RowBox[{"r", "^", "2"}]}], ")"}]}]}], "+", 
+   RowBox[{"0.000491016", " ", 
+    RowBox[{"E", "^", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "0.04664"}], " ", 
+       RowBox[{"r", "^", "2"}]}], ")"}]}]}]}]}]], "Input",
+ CellChangeTimes->{{3.822990615591043*^9, 3.822990635998856*^9}, 
+   3.823025079006049*^9, {3.823025245682558*^9, 3.8230252468580713`*^9}, {
+   3.823025292284997*^9, 3.823025295425879*^9}, {3.8230255642455883`*^9, 
+   3.823025606167782*^9}, {3.823330124565619*^9, 3.823330171842067*^9}, {
+   3.824730520576256*^9, 3.824730522160899*^9}, {3.824731805624811*^9, 
+   3.82473181458335*^9}, {3.8248942682632427`*^9, 3.8248942684108677`*^9}, 
+   3.8248943740863867`*^9, 
+   3.824894412388242*^9},ExpressionUUID->"d1cde962-8ab8-404f-b562-\
+248566006436"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Check normalisation", "Section",
+ CellChangeTimes->{{3.822990828881967*^9, 3.822990843821645*^9}, {
+  3.823002422876561*^9, 
+  3.823002426087637*^9}},ExpressionUUID->"51c98eaa-26fe-4793-ba7a-\
+56ce007350e4"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"NIntegrate", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"RHe1s", "[", "r", "]"}], "^", "2"}], " ", 
+     RowBox[{"r", "^", "2"}]}], ",", 
+    RowBox[{"{", 
+     RowBox[{"r", ",", "0", ",", "Infinity"}], "}"}], ",", 
+    RowBox[{"PrecisionGoal", "\[Rule]", "12"}], ",", 
+    RowBox[{"MaxRecursion", "\[Rule]", "40"}], ",", 
+    RowBox[{"Method", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"Automatic", ",", 
+       RowBox[{"\"\<SymbolicProcessing\>\"", "\[Rule]", "0"}]}], "}"}]}]}], 
+   "]"}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.822990868064735*^9, 3.822990887202875*^9}, {
+  3.823330263866123*^9, 3.823330294711454*^9}, {3.824731737874589*^9, 
+  3.824731783536832*^9}, {3.824894274080017*^9, 3.8248942769381742`*^9}},
+ CellLabel->
+  "In[125]:=",ExpressionUUID->"ec67e483-25ee-45a8-baf2-c5aa9aab536f"],
+
+Cell[BoxData[
+ FormBox["0.9999997380640462`", TraditionalForm]], "Output",
+ CellChangeTimes->{{3.823330279318472*^9, 3.82333029494477*^9}, 
+   3.824731783926816*^9, {3.8247318233281803`*^9, 3.824731842590678*^9}, 
+   3.824894380213151*^9, 3.824894424421616*^9},
+ CellLabel->
+  "Out[125]=",ExpressionUUID->"35069754-e778-4f63-81d1-357119a0d622"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1043, 715},
+WindowMargins->{{85, Automatic}, {Automatic, 141}},
+FrontEndVersion->"12.2 for Mac OS X x86 (64-bit) (December 12, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"b3edc840-ff75-4d77-98d3-69f1577b27f6"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 225, 4, 67, "Section",ExpressionUUID->"68b5c5a8-d657-4944-9766-ce61286d3eeb"],
+Cell[CellGroupData[{
+Cell[830, 30, 295, 5, 54, "Subsection",ExpressionUUID->"8a7e9331-c7ab-4869-bd04-eed86d32e0d4"],
+Cell[1128, 37, 2203, 66, 73, "Input",ExpressionUUID->"d1cde962-8ab8-404f-b562-248566006436"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3380, 109, 213, 4, 67, "Section",ExpressionUUID->"51c98eaa-26fe-4793-ba7a-56ce007350e4"],
+Cell[CellGroupData[{
+Cell[3618, 117, 876, 21, 73, "Input",ExpressionUUID->"ec67e483-25ee-45a8-baf2-c5aa9aab536f"],
+Cell[4497, 140, 344, 6, 30, "Output",ExpressionUUID->"35069754-e778-4f63-81d1-357119a0d622"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
