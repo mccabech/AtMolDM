@@ -1,0 +1,141 @@
+PySCF version 1.7.6a1
+
+[INPUT] num. atoms = 1
+[INPUT] num. electrons = 54
+[INPUT] charge = 0
+[INPUT] spin (= nelec alpha-beta = 2S) = 0
+[INPUT] symmetry True subgroup None
+[INPUT] Mole.unit = angstrom
+[INPUT]  1 Xe     0.000000000000   0.000000000000   0.000000000000 AA    0.000000000000   0.000000000000   0.000000000000 Bohr
+[INPUT] ---------------- BASIS SET ---------------- 
+[INPUT] l, kappa, [nprim/nctr], expnt,             c_1 c_2 ...
+[INPUT] Xe
+[INPUT] 0    0    [11   /1   ]  14247295.5233     -1.46e-05
+                                2420920.22071     -8.94e-05
+                                678759.06832      -0.0003427
+                                230345.21063      -0.0011976
+                                85830.4562491     -0.0037121
+                                34874.5879611     -0.0104924
+                                14902.7162605     -0.0281134
+                                6593.72587914     -0.0710996
+                                2934.11295426     -0.1720677
+                                1288.10080512     -0.3536629
+                                568.50256561      -0.4716238
+[INPUT] 0    0    [2    /1   ]  10.77229104       -0.7521923
+                                5.34740003        -0.2648358
+[INPUT] 0    0    [1    /1   ]  255.7053997          1
+[INPUT] 0    0    [1    /1   ]  101.95252868         1
+[INPUT] 0    0    [1    /1   ]  47.43782542          1
+[INPUT] 0    0    [1    /1   ]  21.5450808           1
+[INPUT] 0    0    [1    /1   ]  2.36939865           1
+[INPUT] 0    0    [1    /1   ]  1.12964172           1
+[INPUT] 0    0    [1    /1   ]  0.35114295           1
+[INPUT] 0    0    [1    /1   ]  0.13589991           1
+[INPUT] 1    0    [8    /1   ]  42524.5315397     0.0001582
+                                10959.4019002     0.0011384
+                                4030.32353105     0.0050535
+                                1731.14794841     0.0183776
+                                794.01485401      0.0595335
+                                371.84342142      0.1700056
+                                173.95097876      0.3764586
+                                82.15536471       0.4973038
+[INPUT] 1    0    [2    /1   ]  18.46267347       -0.5509351
+                                9.09381209        -0.4865157
+[INPUT] 1    0    [2    /1   ]  4.27945996        0.3226493
+                                2.10768947        0.7094234
+[INPUT] 1    0    [1    /1   ]  39.41840445          1
+[INPUT] 1    0    [1    /1   ]  1.02952463           1
+[INPUT] 1    0    [1    /1   ]  0.49039876           1
+[INPUT] 1    0    [1    /1   ]  0.21111364           1
+[INPUT] 1    0    [1    /1   ]  0.08461187           1
+[INPUT] 2    0    [6    /1   ]  1378.38137139     0.0012905
+                                415.31185801      0.0116295
+                                162.67681021      0.0577101
+                                70.60952497       0.1933699
+                                31.88187814       0.4146718
+                                14.6419455        0.4878888
+[INPUT] 2    0    [1    /1   ]  6.80211758           1
+[INPUT] 2    0    [1    /1   ]  3.14737392           1
+[INPUT] 2    0    [1    /1   ]  1.40722911           1
+[INPUT] 2    0    [1    /1   ]  0.56970867           1
+[INPUT] 3    0    [1    /1   ]  4.93804389           1
+[INPUT] 3    0    [1    /1   ]  1.810012095          1
+[INPUT] 3    0    [1    /1   ]  0.525932697          1
+[INPUT] 4    0    [1    /1   ]  3.49118699           1
+[INPUT] 4    0    [1    /1   ]  0.78411339           1
+[INPUT] 5    0    [1    /1   ]  3.66715789           1        
+
+nuclear repulsion = 0
+point group symmetry = SO3
+num. orbitals of irrep s+0 = 10
+num. orbitals of irrep p-1 = 8
+num. orbitals of irrep p+0 = 8
+num. orbitals of irrep p+1 = 8
+num. orbitals of irrep d-2 = 5
+num. orbitals of irrep d-1 = 5
+num. orbitals of irrep d+0 = 5
+num. orbitals of irrep d+1 = 5
+num. orbitals of irrep d+2 = 5
+num. orbitals of irrep f-3 = 3
+num. orbitals of irrep f-2 = 3
+num. orbitals of irrep f-1 = 3
+num. orbitals of irrep f+0 = 3
+num. orbitals of irrep f+1 = 3
+num. orbitals of irrep f+2 = 3
+num. orbitals of irrep f+3 = 3
+num. orbitals of irrep g-4 = 2
+num. orbitals of irrep g-3 = 2
+num. orbitals of irrep g-2 = 2
+num. orbitals of irrep g-1 = 2
+num. orbitals of irrep g+0 = 2
+num. orbitals of irrep g+1 = 2
+num. orbitals of irrep g+2 = 2
+num. orbitals of irrep g+3 = 2
+num. orbitals of irrep g+4 = 2
+num. orbitals of irrep h-5 = 1
+num. orbitals of irrep h-4 = 1
+num. orbitals of irrep h-3 = 1
+num. orbitals of irrep h-2 = 1
+num. orbitals of irrep h-1 = 1
+num. orbitals of irrep h+0 = 1
+num. orbitals of irrep h+1 = 1
+num. orbitals of irrep h+2 = 1
+num. orbitals of irrep h+3 = 1
+num. orbitals of irrep h+4 = 1
+num. orbitals of irrep h+5 = 1
+number of shells = 29
+number of NR pGTOs = 172
+number of NR cGTOs = 109
+basis = qzp
+
+**** SCF Summaries ****
+Total Energy = -7229.719532999104558
+
+**** MO energy ****
+MO #1 (s+0 #1), energy= -1224.50620551426 occ= 2
+MO #2 (s+0 #2), energy= -188.596553717697 occ= 2
+MO #3 (p-1 #1), energy= -177.85876904598 occ= 2
+MO #4 (p+0 #1), energy= -177.85876904598 occ= 2
+MO #5 (p+1 #1), energy= -177.85876904598 occ= 2
+MO #6 (s+0 #3), energy= -39.9717782509455 occ= 2
+MO #7 (p-1 #2), energy= -35.2064878917515 occ= 2
+MO #8 (p+0 #2), energy= -35.2064878917515 occ= 2
+MO #9 (p+1 #2), energy= -35.2064878917516 occ= 2
+MO #10 (d-2 #1), energy= -26.1383898010538 occ= 2
+MO #11 (d-1 #1), energy= -26.1383898010537 occ= 2
+MO #12 (d+0 #1), energy= -26.1383898010539 occ= 2
+MO #13 (d+1 #1), energy= -26.1383898010537 occ= 2
+MO #14 (d+2 #1), energy= -26.1383898010538 occ= 2
+MO #15 (s+0 #4), energy= -7.81611231708528 occ= 2
+MO #16 (p-1 #3), energy= -6.01055769728194 occ= 2
+MO #17 (p+0 #3), energy= -6.01055769728194 occ= 2
+MO #18 (p+1 #3), energy= -6.01055769728202 occ= 2
+MO #19 (d-2 #2), energy= -2.78262279850705 occ= 2
+MO #20 (d-1 #2), energy= -2.78262279850704 occ= 2
+MO #21 (d+0 #2), energy= -2.78262279850707 occ= 2
+MO #22 (d+1 #2), energy= -2.78262279850703 occ= 2
+MO #23 (d+2 #2), energy= -2.78262279850704 occ= 2
+MO #24 (s+0 #5), energy= -0.938684801322945 occ= 2
+MO #25 (p-1 #4), energy= -0.457391265940634 occ= 2
+MO #26 (p+0 #4), energy= -0.457391265940635 occ= 2
+MO #27 (p+1 #4), energy= -0.457391265940652 occ= 2
