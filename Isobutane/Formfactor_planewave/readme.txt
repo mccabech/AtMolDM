@@ -9,4 +9,4 @@ Data is optimised for q = 1 to 500 keV and E = 1 eV to 1 keV.
 Interpolation outside this range is not accurate.
 Outgoing electron wave functions are plane waves.
 The rates will be very inaccurate unless you correct with the Fermi Function.
-Even with the Fermi Function, the rates will be less accurate compared to the form factors that use solutions of the Schroedinger equation.
+Even with the Fermi Function, the rates will be less accurate compared to the form factors that use the Coulomb outgoing wave functions.
