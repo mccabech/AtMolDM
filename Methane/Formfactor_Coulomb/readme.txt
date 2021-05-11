@@ -1,22 +1,22 @@
 The form factor for a single electron ionised from the given configuration.
 For the rates, you must multiply by the occupancy number.
-eg for 2t, you should multiply by 6 (here we don't give separate files for 2tx, 2ty and 2tz as they will be identical after rotational averaging).
+eg for 1t, you should multiply by 6 (here we don't give separate files for 1tx, 1ty and 1tz as they will be identical after rotational averaging).
 
 Outgoing electron wave functions are Coulomb waves. Form factors span the a reduced range compared to the other files, owing to the numerical challenge calculating with a Coulomb wave (there is no spherical symmetry with molecular bound states that help to simplify the problem).
 
 The Coulomb wave form factors span the range E = 1 eV to 109.648 eV and:
-for 1a, q = 1 to 100 keV;
-for 2a, q = 1 to 76.35 keV;
-for 2t, q = 1 to 38.89 keV,
+for 1a1, q = 1 to 100 keV;
+for 2a1, q = 1 to 76.35 keV;
+for 1t2, q = 1 to 38.89 keV,
 where q is the momentum transfer [in keV] and E is the electron kinetic energy [in keV]. 
 
-These results are given by the functions fCH4CW1a, fCH4CW2a and fCH4CW2t.
+These results are given by the functions fCH4CW1a, fCH4CW2a and fCH4CW1t.
 
-We have also provided tables/functions that use a rescaled Plane wave at high q i.e. we match the plane wave onto the Coulomb terms at the q values above, and use the rescaled Plane wave results above that value. These are accessed by the fCH4CWPW1a, fCH4CWPW2a and fCH4CWPW2t functions.
+We have also provided tables/functions that use a rescaled Plane wave at high q i.e. we match the plane wave onto the Coulomb terms at the q values above, and use the rescaled Plane wave results above that value. These are accessed by the fCH4CWPW1a, fCH4CWPW2a and fCH4CWPW1t functions.
 
 We have used the following Zeff values in our Coulomb wave calculation for methane
-1a: 3.7
+1a: 4.7
 2a: 2.6
-2t: 1.
+1t: 1.
 
 
