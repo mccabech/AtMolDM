@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    491154,       7944]
-NotebookOptionsPosition[    490012,       7917]
-NotebookOutlinePosition[    490410,       7933]
-CellTagsIndexPosition[    490367,       7930]
+NotebookDataLength[    491195,       7945]
+NotebookOptionsPosition[    490053,       7918]
+NotebookOutlinePosition[    490451,       7934]
+CellTagsIndexPosition[    490408,       7931]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -32,14 +32,15 @@ q is the momentum transfer [in keV] and E is the electron kinetic energy [in \
 keV].
 Data is optimised for q = 1 to 500 keV and E = 1 eV to 1 keV. 
 Interpolation outside this range is not accurate.
-Outgoing electron wave functions are Coulomb waves with Zeff values from J. \
-Chem. Phys. 38, 2686 (1963)\
+Outgoing electron wave functions are Coulomb waves with Zeff values from \
+ionisation energies\
 \>", "Text",
  CellChangeTimes->{{3.8231027273762283`*^9, 3.823102832319519*^9}, {
    3.8231029891697407`*^9, 3.823103004312229*^9}, {3.823354813302182*^9, 
    3.823354846394549*^9}, {3.8248456740989857`*^9, 3.824845694530282*^9}, 
    3.824846089889118*^9, {3.827126486051978*^9, 3.8271264941602287`*^9}, 
-   3.8271291706151657`*^9},ExpressionUUID->"6bc0f779-82d1-4fb4-8cf8-\
+   3.8271291706151657`*^9, {3.830442456757942*^9, 
+   3.8304424636876993`*^9}},ExpressionUUID->"6bc0f779-82d1-4fb4-8cf8-\
 3c0f9c6c9bf2"],
 
 Cell[CellGroupData[{
@@ -7934,16 +7935,16 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 292, 4, 67, "Section",ExpressionUUID->"523d079a-12a4-4740-b4e8-3a5672d365bc"],
-Cell[875, 28, 774, 14, 127, "Text",ExpressionUUID->"6bc0f779-82d1-4fb4-8cf8-3c0f9c6c9bf2"],
+Cell[875, 28, 815, 15, 127, "Text",ExpressionUUID->"6bc0f779-82d1-4fb4-8cf8-3c0f9c6c9bf2"],
 Cell[CellGroupData[{
-Cell[1674, 46, 1949, 46, 220, "Input",ExpressionUUID->"56c9f5d4-a9ad-4c7d-aaaf-ec49aad8dbc8"],
-Cell[3626, 94, 172270, 2471, 81, "Output",ExpressionUUID->"b2b169be-bd41-4539-95ec-57d8942bdf40"],
-Cell[175899, 2567, 136707, 2281, 81, "Output",ExpressionUUID->"ddf65f65-5161-4499-852d-3e16852dfc26"],
-Cell[312609, 4850, 136400, 2276, 81, "Output",ExpressionUUID->"23961291-67ef-4e01-b377-db21eb33dbaf"]
+Cell[1715, 47, 1949, 46, 220, "Input",ExpressionUUID->"56c9f5d4-a9ad-4c7d-aaaf-ec49aad8dbc8"],
+Cell[3667, 95, 172270, 2471, 81, "Output",ExpressionUUID->"b2b169be-bd41-4539-95ec-57d8942bdf40"],
+Cell[175940, 2568, 136707, 2281, 81, "Output",ExpressionUUID->"ddf65f65-5161-4499-852d-3e16852dfc26"],
+Cell[312650, 4851, 136400, 2276, 81, "Output",ExpressionUUID->"23961291-67ef-4e01-b377-db21eb33dbaf"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[449046, 7131, 1997, 45, 115, "Input",ExpressionUUID->"42c49bb1-480e-4974-be94-f224a35e6b51"],
-Cell[451046, 7178, 38938, 735, 243, "Output",ExpressionUUID->"79e1e389-ae3a-4a2b-b9a5-386b17bafd57"]
+Cell[449087, 7132, 1997, 45, 115, "Input",ExpressionUUID->"42c49bb1-480e-4974-be94-f224a35e6b51"],
+Cell[451087, 7179, 38938, 735, 243, "Output",ExpressionUUID->"79e1e389-ae3a-4a2b-b9a5-386b17bafd57"]
 }, Open  ]]
 }, Open  ]]
 }
