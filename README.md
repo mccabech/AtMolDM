@@ -1,3 +1,3 @@
 # AtMolDM
 
-Description of the files
+Mathematica files and the data files needed to run them.
