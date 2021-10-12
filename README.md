@@ -1,6 +1,6 @@
 # AtMolDM
 
-The purpose of this website is to host data files and Mathematica notebooks used to calculate the dark matter—electron scattering results in ‘Fuelling the search for light dark matter—electron scattering’ by Louis Hamaide and Christopher McCabe. If you use any of the data or code from this website, please cite the paper.
+The purpose of this website is to host data files and Mathematica notebooks used to calculate the dark matter—electron scattering results in ‘Fuelling the search for light dark matter—electron scattering’ by Louis Hamaide and Christopher McCabe, arXiv:2110.02985. If you use any of the data or code from this website, please cite the paper.
 
 There are results for the three atoms (helium, neon and xenon) and the two molecular species (methane and isobutane) that we considered in the paper. Below is a brief description of the contents of each folder:
 
